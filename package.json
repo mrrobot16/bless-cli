@@ -4,7 +4,7 @@
   "description": "The CLI tool for interacting with blessnet",
   "main": "index.js",
   "bin": {
-    "blessnet": "./index.js"
+    "bless-dev": "./index.js"
   },
   "scripts": {
     "test": "mocha"

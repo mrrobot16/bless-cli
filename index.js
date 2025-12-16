@@ -34,6 +34,7 @@ const accountCommand = require('./commands/account'); // Import the account comm
 const Box = require("cli-box");
 
 async function main() {
+		console.log('RUNNING cli/index.js');
     const cwd = process.cwd();
     const blsTomlPath = path.join(cwd, 'bls.toml');
 
